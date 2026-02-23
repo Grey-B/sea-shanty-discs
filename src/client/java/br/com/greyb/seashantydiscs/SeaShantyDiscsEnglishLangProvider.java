@@ -14,21 +14,23 @@ public class SeaShantyDiscsEnglishLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder) {
-        translationBuilder.add(ModItems.MUSIC_DISC_BARRETTS_PRIVATEERS.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_BONES_IN_THE_OCEAN.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_CAPTAIN_KIDD.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_DRUNKEN_SAILOR.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_FISH_IN_THE_SEA.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_HERES_A_HEALTH_TO_THE_COMPANY.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_LEAVE_HER_JOHNNY.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_OLD_MAUI.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_RANDY_DANDY_O.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_RETIREMENT_SONG.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_ROLL_THE_OLD_CHARIOT_ALONG.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_RYE_WHISKEY.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_SANTIANA.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_SPANISH_LADIES.getTranslationKey(), "Music Disc");
-        translationBuilder.add(ModItems.MUSIC_DISC_WELLERMAN.getTranslationKey(), "Music Disc");
+        String discName = "Music Disc";
+
+        translationBuilder.add(ModItems.MUSIC_DISC_BARRETTS_PRIVATEERS.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_BONES_IN_THE_OCEAN.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_CAPTAIN_KIDD.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_DRUNKEN_SAILOR.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_FISH_IN_THE_SEA.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_HERES_A_HEALTH_TO_THE_COMPANY.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_LEAVE_HER_JOHNNY.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_OLD_MAUI.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_RANDY_DANDY_O.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_RETIREMENT_SONG.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_ROLL_THE_OLD_CHARIOT_ALONG.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_RYE_WHISKEY.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_SANTIANA.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_SPANISH_LADIES.getTranslationKey(), discName);
+        translationBuilder.add(ModItems.MUSIC_DISC_WELLERMAN.getTranslationKey(), discName);
 
         translationBuilder.add(ModItems.MUSIC_DISC_BARRETTS_PRIVATEERS.getTranslationKey() + ".desc",
                 "Stan Rogers - Barrett's Privateers");
