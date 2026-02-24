@@ -46,7 +46,7 @@ public class ModItems {
     public static final Item MUSIC_DISC_HERES_A_HEALTH_TO_THE_COMPANY = register(
             "music_disc_heres_a_health_to_the_company", HeresAHealthItem::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
-                    .jukeboxPlayable(JukeboxSongs.CAT)
+//                    .jukeboxPlayable(JukeboxSongs.CAT)
     );
     public static final Item MUSIC_DISC_LEAVE_HER_JOHNNY = register(
             "music_disc_leave_her_johnny", Item::new, new Item.Settings()
