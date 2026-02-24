@@ -91,7 +91,7 @@ public class ModItems {
     public static final Item MUSIC_DISC_WELLERMAN = register(
             "music_disc_wellerman", WellermanItem::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
-//                    .jukeboxPlayable()
+                    .jukeboxPlayable(ModJukeboxSongs.WELLERMAN)
     );
 
     public static <GenericItem extends Item> GenericItem register(
