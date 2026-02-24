@@ -1,6 +1,5 @@
 package br.com.greyb.seashantydiscs;
 
-import br.com.greyb.seashantydiscs.disc.BarretsPrivateersItem;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,5 +13,6 @@ public class SeaShantyDiscs implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.initialize();
+        ModMusic.initialize();
     }
 }
