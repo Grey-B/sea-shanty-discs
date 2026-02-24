@@ -1,4 +1,130 @@
 {
+  "music_disc.roll_the_old_chariot_along": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.roll_the_old_chariot_along",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.roll_the_old_chariot_along",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.barretts_privateers": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.barretts_privateers",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.barretts_privateers",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.bones_in_the_ocean": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.bones_in_the_ocean",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.bones_in_the_ocean",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.captain_kidd": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.captain_kidd",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.captain_kidd",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.drunken_sailor": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.drunken_sailor",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.drunken_sailor",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fish_in_the_sea": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.fish_in_the_sea",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.fish_in_the_sea",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.heres_a_health_to_the_company": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.heres_a_health_to_the_company",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.heres_a_health_to_the_company",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.leave_her_johnny": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.leave_her_johnny",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.leave_her_johnny",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.randy_dandy_o": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.randy_dandy_o",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.randy_dandy_o",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.retirement_song": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.retirement_song",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.retirement_song",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.old_maui": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.old_maui",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.old_maui",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.rye_whiskey": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.rye_whiskey",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.rye_whiskey",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.santiana": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.santiana",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.santiana",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.spanish_ladies": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.spanish_ladies",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.spanish_ladies",
+        "stream": true
+      }
+    ]
+  },
   "music_disc.wellerman": {
     "subtitle": "sound.sea-shanty-discs.music_disc.wellerman",
     "sounds": [

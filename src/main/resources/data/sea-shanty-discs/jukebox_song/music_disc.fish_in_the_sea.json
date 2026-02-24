@@ -1,0 +1,8 @@
+{
+  "comparator_output": 14,
+  "description": {
+    "translate": "jukebox_song.sea-shanty-discs.music_disc.fish_in_the_sea"
+  },
+  "length_in_seconds": 90.0,
+  "sound_event": "sea-shanty-discs:music_disc.fish_in_the_sea"
+}

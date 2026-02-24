@@ -1,0 +1,8 @@
+{
+  "comparator_output": 13,
+  "description": {
+    "translate": "jukebox_song.sea-shanty-discs.music_disc.roll_the_old_chariot_along"
+  },
+  "length_in_seconds": 170.0,
+  "sound_event": "sea-shanty-discs:music_disc.roll_the_old_chariot_along"
+}

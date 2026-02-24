@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.sea-shanty-discs.music_disc.captain_kidd"
+  },
+  "length_in_seconds": 172.0,
+  "sound_event": "sea-shanty-discs:music_disc.captain_kidd"
+}
