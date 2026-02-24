@@ -32,20 +32,6 @@ public class SeaShantyDiscsEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.MUSIC_DISC_SPANISH_LADIES.getTranslationKey(), discName);
         translationBuilder.add(ModItems.MUSIC_DISC_WELLERMAN.getTranslationKey(), discName);
 
-        translationBuilder.add(ModItems.MUSIC_DISC_BARRETTS_PRIVATEERS.getTranslationKey() + ".desc",
-                "Stan Rogers - Barrett's Privateers");
-        translationBuilder.add(ModItems.MUSIC_DISC_BONES_IN_THE_OCEAN.getTranslationKey() + ".desc",
-                "The Longest Johns - Bones In The Ocean");
-        translationBuilder.add(ModItems.MUSIC_DISC_DRUNKEN_SAILOR.getTranslationKey() + ".desc",
-                "The Irish Roves - Drunken Sailor");
-        translationBuilder.add(ModItems.MUSIC_DISC_HERES_A_HEALTH_TO_THE_COMPANY.getTranslationKey() + ".desc",
-                "Colm R. McGuinness - Here's a Health to the Company");
-        translationBuilder.add(ModItems.MUSIC_DISC_RETIREMENT_SONG.getTranslationKey() + ".desc",
-                "The Longest Johns - Retirement Song");
-        translationBuilder.add(ModItems.MUSIC_DISC_RYE_WHISKEY.getTranslationKey() + ".desc",
-                "The Pirates Charles - Rye Whiskey");
-        translationBuilder.add(ModItems.MUSIC_DISC_WELLERMAN.getTranslationKey() + ".desc",
-                "Nathan Evans - Wellerman");
         translationBuilder.add("sound.sea-shanty-discs.music_disc.wellerman", "Nathan Evans - Wellerman");
         translationBuilder.add("jukebox_song.sea-shanty-discs.music_disc.wellerman", "Nathan Evans - Wellerman");
     }

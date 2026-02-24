@@ -1,8 +1,6 @@
 package br.com.greyb.seashantydiscs;
 
-import br.com.greyb.seashantydiscs.disc.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.jukebox.JukeboxSongs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -19,12 +17,12 @@ import java.util.function.Function;
 
 public class ModItems {
     public static final Item MUSIC_DISC_BARRETTS_PRIVATEERS = register(
-            "music_disc_barretts_privateers", BarretsPrivateersItem::new, new Item.Settings()
+            "music_disc_barretts_privateers", Item::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
 //                    .jukeboxPlayable()
     );
     public static final Item MUSIC_DISC_BONES_IN_THE_OCEAN = register(
-            "music_disc_bones_in_the_ocean", BonesInTheOceanItem::new, new Item.Settings()
+            "music_disc_bones_in_the_ocean", Item::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
 //                    .jukeboxPlayable()
     );
@@ -34,7 +32,7 @@ public class ModItems {
 //                    .jukeboxPlayable()
     );
     public static final Item MUSIC_DISC_DRUNKEN_SAILOR = register(
-            "music_disc_drunken_sailor", DrunkenSailorItem::new, new Item.Settings()
+            "music_disc_drunken_sailor", Item::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
 //                    .jukeboxPlayable()
     );
@@ -44,7 +42,7 @@ public class ModItems {
 //                    .jukeboxPlayable()
     );
     public static final Item MUSIC_DISC_HERES_A_HEALTH_TO_THE_COMPANY = register(
-            "music_disc_heres_a_health_to_the_company", HeresAHealthItem::new, new Item.Settings()
+            "music_disc_heres_a_health_to_the_company", Item::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
 //                    .jukeboxPlayable(JukeboxSongs.CAT)
     );
@@ -64,7 +62,7 @@ public class ModItems {
 //                    .jukeboxPlayable()
     );
     public static final Item MUSIC_DISC_RETIREMENT_SONG = register(
-            "music_disc_retirement_song", RetirementItem::new, new Item.Settings()
+            "music_disc_retirement_song", Item::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
 //                    .jukeboxPlayable()
     );
@@ -74,7 +72,7 @@ public class ModItems {
 //                    .jukeboxPlayable()
     );
     public static final Item MUSIC_DISC_RYE_WHISKEY = register(
-            "music_disc_rye_whiskey", RyeWhiskeyItem::new, new Item.Settings()
+            "music_disc_rye_whiskey", Item::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
 //                    .jukeboxPlayable()
     );
@@ -89,7 +87,7 @@ public class ModItems {
 //                    .jukeboxPlayable()
     );
     public static final Item MUSIC_DISC_WELLERMAN = register(
-            "music_disc_wellerman", WellermanItem::new, new Item.Settings()
+            "music_disc_wellerman", Item::new, new Item.Settings()
                     .maxCount(1).rarity(Rarity.UNCOMMON)
                     .jukeboxPlayable(ModMusic.WELLERMAN_KEY)
     );
