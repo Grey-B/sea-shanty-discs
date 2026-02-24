@@ -10,5 +10,8 @@ public class SeaShantyDiscsDataGenerator implements DataGeneratorEntrypoint {
 
         pack.addProvider(SeaShantyDiscsModelProvider::new);
         pack.addProvider(SeaShantyDiscsEnglishLangProvider::new);
+        pack.addProvider(SeaShantyDiscsPirateLangProvider::new);
+        pack.addProvider(SeaShantyDiscsPortugueseBRLangProvider::new);
+        pack.addProvider(SeaShantyDiscsPortuguesePTLangProvider::new);
     }
 }
