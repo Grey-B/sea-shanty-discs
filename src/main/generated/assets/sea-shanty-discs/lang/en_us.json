@@ -20,5 +20,7 @@
   "item.sea-shanty-discs.music_disc_santiana": "Music Disc",
   "item.sea-shanty-discs.music_disc_spanish_ladies": "Music Disc",
   "item.sea-shanty-discs.music_disc_wellerman": "Music Disc",
-  "item.sea-shanty-discs.music_disc_wellerman.desc": "Nathan Evans - Wellerman"
+  "item.sea-shanty-discs.music_disc_wellerman.desc": "Nathan Evans - Wellerman",
+  "jukebox_song.sea-shanty-discs.music_disc.wellerman": "Nathan Evans - Wellerman",
+  "sound.sea-shanty-discs.music_disc.wellerman": "Nathan Evans - Wellerman"
 }

@@ -46,5 +46,7 @@ public class SeaShantyDiscsEnglishLangProvider extends FabricLanguageProvider {
                 "The Pirates Charles - Rye Whiskey");
         translationBuilder.add(ModItems.MUSIC_DISC_WELLERMAN.getTranslationKey() + ".desc",
                 "Nathan Evans - Wellerman");
+        translationBuilder.add("sound.sea-shanty-discs.music_disc.wellerman", "Nathan Evans - Wellerman");
+        translationBuilder.add("jukebox_song.sea-shanty-discs.music_disc.wellerman", "Nathan Evans - Wellerman");
     }
 }

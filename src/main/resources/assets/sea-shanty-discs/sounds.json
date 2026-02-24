@@ -1,6 +1,11 @@
 {
-  "music_disc_wellerman": {
-    "subtitle": "sound.sea-shanty-discs.music_disc_wellerman",
-    "sounds": ["sea-shanty-discs:music_disc_wellerman"]
+  "music_disc.wellerman": {
+    "subtitle": "sound.sea-shanty-discs.music_disc.wellerman",
+    "sounds": [
+      {
+        "name": "sea-shanty-discs:music_disc.wellerman",
+        "stream": true
+      }
+    ]
   }
 }
