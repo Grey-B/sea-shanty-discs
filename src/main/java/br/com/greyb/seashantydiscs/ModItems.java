@@ -12,9 +12,6 @@ import net.minecraft.util.Rarity;
 
 import java.util.function.Function;
 
-//TODO: Add tooltips
-//TODO: Add jukebox
-
 public class ModItems {
     public static final Item MUSIC_DISC_BARRETTS_PRIVATEERS = register(
             "music_disc_barretts_privateers", Item::new, new Item.Settings()
