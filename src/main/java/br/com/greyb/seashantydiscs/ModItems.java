@@ -30,7 +30,7 @@ public class ModItems {
     );
     public static final Item MUSIC_DISC_DRUNKEN_SAILOR = register(
             "music_disc_drunken_sailor", Item::new, new Item.Settings()
-                    .maxCount(1).rarity(Rarity.UNCOMMON)
+                    .maxCount(1).rarity(Rarity.RARE)
                     .jukeboxPlayable(ModMusic.DRUNKEN_SAILOR_KEY)
     );
     public static final Item MUSIC_DISC_FISH_IN_THE_SEA = register(
@@ -40,7 +40,7 @@ public class ModItems {
     );
     public static final Item MUSIC_DISC_HERES_A_HEALTH_TO_THE_COMPANY = register(
             "music_disc_heres_a_health_to_the_company", Item::new, new Item.Settings()
-                    .maxCount(1).rarity(Rarity.UNCOMMON)
+                    .maxCount(1).rarity(Rarity.RARE)
                     .jukeboxPlayable(ModMusic.HERES_A_HEALTH_KEY)
     );
     public static final Item MUSIC_DISC_LEAVE_HER_JOHNNY = register(
@@ -75,7 +75,7 @@ public class ModItems {
     );
     public static final Item MUSIC_DISC_SANTIANA = register(
             "music_disc_santiana", Item::new, new Item.Settings()
-                    .maxCount(1).rarity(Rarity.RARE)
+                    .maxCount(1).rarity(Rarity.UNCOMMON)
                     .jukeboxPlayable(ModMusic.SANTIANA_KEY)
     );
     public static final Item MUSIC_DISC_SPANISH_LADIES = register(
@@ -85,7 +85,7 @@ public class ModItems {
     );
     public static final Item MUSIC_DISC_WELLERMAN = register(
             "music_disc_wellerman", Item::new, new Item.Settings()
-                    .maxCount(1).rarity(Rarity.UNCOMMON)
+                    .maxCount(1).rarity(Rarity.RARE)
                     .jukeboxPlayable(ModMusic.WELLERMAN_KEY)
     );
 
