@@ -11,13 +11,18 @@ public class ModTrades {
     public static void initialize() {
         SeaShantyDiscs.LOGGER.info("Registering " + SeaShantyDiscs.MOD_ID + " fisherman offers");
 
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FISHERMAN, 4, factories ->
-                factories.addAll(ImmutableList.of(
-                        new TradeOffers.ProcessItemFactory(Blocks.OAK_SAPLING, 1, 8,
-                                ModItems.MUSIC_DISC_RETIREMENT_SONG, 1, 10, 10, 0.2F),
-                        new TradeOffers.ProcessItemFactory(Items.COD_BUCKET, 1, 8,
-                                ModItems.MUSIC_DISC_WELLERMAN, 1, 10, 10, 0.2F)
-                ))
+        ImmutableList<TradeOffers.Factory> factoryList = ImmutableList.of(
+                new TradeOffers.ProcessItemFactory(Blocks.OAK_SAPLING, 1, 8,
+                        ModItems.MUSIC_DISC_RETIREMENT_SONG, 1, 10, 10, 0.2F),
+                new TradeOffers.ProcessItemFactory(Items.COD_BUCKET, 1, 8,
+                        ModItems.MUSIC_DISC_WELLERMAN, 1, 10, 10, 0.2F)
+        );
+
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FISHERMAN, 4, (factories, rebalanced) -> {
+                    if (!rebalanced) {
+                        factories.addAll(factoryList);
+                    }
+                }
         );
     }
 }
