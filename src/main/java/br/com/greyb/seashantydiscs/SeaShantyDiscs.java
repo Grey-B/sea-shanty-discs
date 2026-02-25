@@ -15,5 +15,6 @@ public class SeaShantyDiscs implements ModInitializer {
         ModItems.initialize();
         ModMusic.initialize();
         ModLootTables.initialize();
+        ModTrades.initialize();
     }
 }
