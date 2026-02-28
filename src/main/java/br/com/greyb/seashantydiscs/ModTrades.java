@@ -13,9 +13,9 @@ public class ModTrades {
 
         ImmutableList<TradeOffers.Factory> factoryList = ImmutableList.of(
                 new TradeOffers.ProcessItemFactory(Blocks.OAK_SAPLING, 1, 8,
-                        ModItems.MUSIC_DISC_RETIREMENT_SONG, 1, 10, 10, 0.2F),
+                        ModItems.MUSIC_DISC_RETIREMENT_SONG, 1, 3, 15, 0.2F),
                 new TradeOffers.ProcessItemFactory(Items.COD_BUCKET, 1, 8,
-                        ModItems.MUSIC_DISC_WELLERMAN, 1, 10, 10, 0.2F)
+                        ModItems.MUSIC_DISC_WELLERMAN, 1, 3, 15, 0.2F)
         );
 
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.FISHERMAN, 4, (factories, rebalanced) -> {
